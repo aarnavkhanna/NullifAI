@@ -888,16 +888,7 @@ export default function App() {
             className="flex-shrink-0 w-full lg:w-[480px] relative z-10 py-12"
             style={{ y: heroContentY, opacity: heroOpacity }}
           >
-            <Animated delay={2.3}>
-              <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-white/10 bg-white/[0.02] mb-8">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_8px_#4ade80] animate-pulse" />
-                <span className="font-mono text-[11px] tracking-[0.14em] uppercase text-white/35">
-                  Accepting early access
-                </span>
-              </div>
-            </Animated>
-
-            <h1 className="font-display text-[52px] sm:text-[60px] lg:text-[64px] font-bold leading-[1.0] tracking-tight mb-3">
+            <h1 className="font-display text-[36px] sm:text-[48px] lg:text-[64px] font-bold leading-[1.0] tracking-tight mb-3">
               <span className="block overflow-hidden pb-2">
                 <SplitText delay={2.5}>Your market.</SplitText>
               </span>
